@@ -4,7 +4,7 @@
 #Basic Information
 Name:           authz
 Version:        0.1
-Release:        16%{?dist}
+Release:        16
 Summary:        a isula auth plugin for RBAC
 License:        Mulan PSL v1
 Source0:        authz-plugin.tar.gz
