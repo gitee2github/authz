@@ -17,10 +17,11 @@ default: binary
 
 ENV = CGO_ENABLED=0
 GO_LDFLAGS = "-X main.version=$(VERSION)"
+GOMOD = "-mod=vendor"
 
 binary:
 	mkdir -p bin/
-	$(ENV) go build -o bin/authz-broker --ldflags $(GO_LDFLAGS) -a -installsuffix cgo ./main.go
+	$(ENV) go build $(GOMOD) -o bin/authz-broker --ldflags $(GO_LDFLAGS) -a -installsuffix cgo ./main.go
 
 clean:
 	rm -rf bin/
