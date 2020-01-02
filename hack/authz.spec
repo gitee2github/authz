@@ -7,6 +7,7 @@ Version:        0.1
 Release:        16
 Summary:        a isula auth plugin for RBAC
 License:        Mulan PSL v1
+URL:            https://gitee.com/src-openeuler/authz
 Source0:        authz-plugin.tar.gz
 BuildRoot:      %{_tmppath}/authz-root
 
