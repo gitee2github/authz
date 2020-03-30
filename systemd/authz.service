@@ -21,4 +21,4 @@ Restart=always
 RestartSec=2s
 
 [Install]
-WantedBy=multi-user.target lcrd.service
+WantedBy=multi-user.target isulad.service
