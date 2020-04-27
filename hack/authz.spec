@@ -4,9 +4,9 @@
 #Basic Information
 Name:           authz
 Version:        0.1
-Release:        16
+Release:        17
 Summary:        a isula auth plugin for RBAC
-License:        Mulan PSL v1
+License:        Mulan PSL v2
 URL:            https://gitee.com/src-openeuler/authz
 Source0:        authz-plugin.tar.gz
 BuildRoot:      %{_tmppath}/authz-root
@@ -74,6 +74,9 @@ chmod 0640 /var/lib/authz-broker/policy.json
 rm -rfv %{buildroot}
 
 %changelog
+* Tue Apr 27 2020 zhangtianyang <zhangtianyang2@huawei.com> - 0.1.0-17
+- update license to Mulan PSL v2
+
 * Tue Oct 23 2018 Zhangsong<zhangsong34@huawei.com> - 0.1.0-6
 - Type:enhancement
 - ID:NA
