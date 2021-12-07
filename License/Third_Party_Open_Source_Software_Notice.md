@@ -304,6 +304,31 @@ Copyright (c) 2009 The Go Authors. All rights reserved.
 License: BSD
 Please see above
 
+Software: vendor/golang.org/x/net v0.0.0-20190620200207-3b0461eec859
+Copyright notice:
+Copyright (c) 2009 The Go Authors. All rights reserved.
+License: BSD-3-Clause
+Please see above
+
+Software: vendor/golang.org/x/sys v0.0.0-20190507160741-ecd444e8653b
+Copyright notice:
+Copyright (c) 2009 The Go Authors. All rights reserved.
+License: BSD-3-Clause
+Please see above
+
+Software: vendor/github.com/konsorten/go-windows-terminal-sequences v1.0.1
+Copyright notice:
+Copyright (c) 2017 marvin + konsorten GmbH (open-source@konsorten.de)
+License: MIT License
+Please see above
+
+Software: vendor/github.com/pkg/errors v0.8.1
+Copyright notice:
+Copyright (c) 2015, Dave Cheney <dave@cheney.net>
+All rights reserved.
+License: BSD-2-Clause
+Please see above
+
 Written Offer
 
 This product contains software whose rights holders license it on the terms of the GNU General Public License, version 2 (GPLv2) and/or other open source software licenses. We will provide you and any third party with the source code of the software licensed under an open source software license if you send us a written request by mail or email to the following addresses: 
